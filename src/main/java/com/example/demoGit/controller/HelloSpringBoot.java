@@ -20,6 +20,7 @@ public class HelloSpringBoot {
 		model.addAttribute("hello", "ciao mondo");
 		model.addAttribute("pippo", "ciao pippo");
 		
+		int x = 0;
 		
 		return "index";
 		
